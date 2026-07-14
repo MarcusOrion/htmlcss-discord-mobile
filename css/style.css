@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background-color: rgb(25,29,122);
+}
+/* Banner Style */
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+/*Style Button*/
+.download-btn {
+    background-color: white;
+    border-radius: 10px;
+}
+
