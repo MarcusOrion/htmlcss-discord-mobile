@@ -69,12 +69,22 @@ iframe {
 }
 /*First Box*/
 .first-box {
+    text-align: left;
+    position: relative;
     background-color: #5C63CF;
     border-radius: 20px;
-    padding: 30px 10px;
+    padding: 70px 30px;
     margin-top: 50px;
     margin-bottom: 50px;
 
+}
+/*Image in the first box*/
+.first-box-image img {
+    position: absolute;
+    top: -65px;
+    left: 40px;
+    height: 130px;
+    width: 130px;
 }
 /*Second Box*/
 .second-box {
