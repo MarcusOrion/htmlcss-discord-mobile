@@ -12,7 +12,7 @@ body {
 }
 h1 {
     font-family: 'Sigmar', sans-serif;
-    font-size:35px;
+    font-size:42px;
     color: white;
     font-weight: 700;
     line-height: 1.1;
@@ -21,7 +21,7 @@ h1 {
 }
 p {
     font-family: 'DM Sans', sans-serif;
-    font-weight: bold;
+    font-size: 20px;
     color: white;
     margin-top: 10px;
 }
@@ -29,6 +29,11 @@ p {
 .banner {
     max-width: 100%;
     height: auto;
+}
+/*Button Section Box Container*/
+.button-box {
+    margin-top: 100px;
+    text-align: center;
 }
 /*Style Button*/
 .btn-container {
@@ -45,6 +50,7 @@ p {
     color: black;
     text-align: center;
     cursor: pointer;
+    font-size: 20px;
 }
 .discord-btn {
     background-color: rgb(87, 100, 238);
@@ -55,6 +61,7 @@ p {
     color: white;
     text-align: center;
     cursor: pointer;
+    font-size: 20px;
 }
 .box {
     width: 90%;
