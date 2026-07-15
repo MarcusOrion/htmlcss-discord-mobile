@@ -120,3 +120,7 @@ video {
     height: 130px;
     width: 130px;
 }
+/*Modifica link esterno*/
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Style Setup */
+body {
+    background-color: #0E1155;
+}
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+/* Modifiche all'immagine header*/
+.banner img {
+   max-width: 100%;
+   height: auto; 
+}
+/*Button Box*/
+.box-btn {
+    display: block;
+    text-align: center;
+}
+/*Windows Button*/
+.windows-btn {
+    display:block;
+    font-size: 16px;
+    color: white;
+    padding: 15px;
+}
+/*Mac Button*/
+.mac-btn {
+    display: block;
+    font-size: 16px;
+    color: black;
+    padding: 15px;
+}
