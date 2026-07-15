@@ -7,6 +7,18 @@
 /* Body Styles */
 body {
     background-color: rgb(25,29,122);
+    font-family: 'DM Sans', sans-serif;
+    color:white;
+    text-align: center;
+}
+h1 {
+    font-family: 'Sigmar', sans-serif;
+    font-size:35px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 /* Banner Style */
 .banner {
@@ -14,8 +26,21 @@ body {
     height: auto;
 }
 /*Style Button*/
+.btn-container {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
 .download-btn {
     background-color: white;
     border-radius: 10px;
 }
-
+.discord-btn {
+    background-color: rgb(87, 100, 238);
+    border-radius: 10px;
+}
+.box {
+    width: 90%;
+    max-width: 512px;
+    margin: 0 auto;
+}
