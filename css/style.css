@@ -34,10 +34,21 @@ h1 {
 .download-btn {
     background-color: white;
     border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px;
+    border: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
 }
 .discord-btn {
     background-color: rgb(87, 100, 238);
     border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
 }
 .box {
     width: 90%;
