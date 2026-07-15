@@ -8,7 +8,7 @@
 body {
     background-color: rgb(25,29,122);
     color:white;
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 60px;
 }
 h1 {
@@ -27,7 +27,7 @@ p {
     margin-top: 10px;
 }
 /* Banner Style */
-.banner {
+.banner img {
     max-width: 100%;
     height: auto;
 }
@@ -47,6 +47,7 @@ p {
     border-radius: 10px;
     padding: 10px 30px;
     margin: 15px;
+    width: 100%;
     border: none;
     color: black;
     text-align: center;
@@ -57,6 +58,7 @@ p {
     background-color: rgb(87, 100, 238);
     border-radius: 10px;
     padding: 10px 30px;
+    width: 100%;
     margin-bottom: 50px;
     border: none;
     color: white;
