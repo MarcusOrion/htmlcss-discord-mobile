@@ -35,7 +35,7 @@ h1 {
     background-color: white;
     border-radius: 10px;
     padding: 10px 30px;
-    margin: 10px;
+    margin: 15px;
     border: none;
     color: black;
     text-align: center;
@@ -45,6 +45,7 @@ h1 {
     background-color: rgb(87, 100, 238);
     border-radius: 10px;
     padding: 10px 30px;
+    margin-bottom: 50px;
     border: none;
     color: white;
     text-align: center;
@@ -54,4 +55,31 @@ h1 {
     width: 90%;
     max-width: 512px;
     margin: 0 auto;
+}
+iframe {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.chat-image {
+    width: 215px;
+    height: 215px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*First Box*/
+.first-box {
+    background-color: #5C63CF;
+    border-radius: 20px;
+    padding: 30px 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+/*Second Box*/
+.second-box {
+    background-color: #5C63CF;
+    border-radius: 20px;
+    padding: 30px 10px;
+    margin-top: 50px;
 }
