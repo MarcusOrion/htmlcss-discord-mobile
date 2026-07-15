@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-/* Body Styles */
+/* Body and Text Styles */
 body {
     background-color: rgb(25,29,122);
-    font-family: 'DM Sans', sans-serif;
     color:white;
     text-align: center;
 }
@@ -19,6 +18,12 @@ h1 {
     line-height: 1.1;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+}
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
 }
 /* Banner Style */
 .banner {
