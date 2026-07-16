@@ -23,6 +23,7 @@ p {
     font-size: 16px;
     font-weight: 200px;
     margin: 10px 30px;
+    margin-top: 5px;
 }
 i {
     margin: 5px;
@@ -85,10 +86,18 @@ section {
     padding: 10px;
     margin: 20px;
 }
-section > h3 {
+h3 {
+    color: white;
     text-align: left;
     padding: 0 26px;
 }
 section p {
     text-align: left;
+}
+/* Icon style for people-fill */
+i.bi-people-fill {
+    color: #9aa0ff;
+    margin-right: 6px;
+    vertical-align: middle;
+    padding: 15px 21px;
 }
