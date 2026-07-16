@@ -17,33 +17,47 @@ h1 {
     color: white;
     margin-top: 50px;
 }
+p {
+    color: lightgrey;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200px;
+    margin: 10px 30px;
+}
+i {
+    margin: 5px;
+}
 /* Modifiche all'immagine header*/
 .banner img {
    max-width: 100%;
-   height: auto; 
+   height: auto;
 }
 /*Button Box*/
 .box-btn {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 80 auto;
 }
 /*Mobile Button*/
 .mobile-btn {
     background-color: #333590;
     border: none;
-    border-radius: 20px;;
-    display:block;
+    border-radius: 7px;;
+    display: block;
     font-size: 16px;
     color: white;
     padding: 15px;
+    width: 300px;
+    margin: 20px auto;
 }
 /*Browser Button*/
 .browser-btn {
     background-color: #1B1A1D;
     border: none;
-    border-radius: 20px;
+    border-radius: 7px;
     display: block;
     font-size: 16px;
     color: grey;
     padding: 15px;
+    width: 300px;
+    margin: 20px auto;
 }
