@@ -24,20 +24,26 @@ h1 {
 }
 /*Button Box*/
 .box-btn {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
-/*Windows Button*/
-.windows-btn {
+/*Mobile Button*/
+.mobile-btn {
+    background-color: #333590;
+    border: none;
+    border-radius: 20px;;
     display:block;
     font-size: 16px;
     color: white;
     padding: 15px;
 }
-/*Mac Button*/
-.mac-btn {
+/*Browser Button*/
+.browser-btn {
+    background-color: #1B1A1D;
+    border: none;
+    border-radius: 20px;
     display: block;
     font-size: 16px;
-    color: black;
+    color: grey;
     padding: 15px;
 }
