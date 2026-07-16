@@ -13,19 +13,24 @@ h1 {
     font-size: 20px;
     font-weight: 400px;
     text-transform: uppercase;
-    text-align: center;
+    /*text-align: center;*/
     color: white;
     margin-top: 50px;
 }
 p {
     color: lightgrey;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 16px;
     font-weight: 200px;
     margin: 10px 30px;
 }
 i {
     margin: 5px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 /* Modifiche all'immagine header*/
 .banner img {
@@ -60,4 +65,30 @@ i {
     padding: 15px;
     width: 300px;
     margin: 20px auto;
+}
+/*Boxes Style*/
+.first-box {
+    border-radius: 10px;
+    background-color: rgb(37, 36, 36);
+    padding: 10px;
+    margin: 20px;
+}
+.second-box {
+    border-radius: 10px;
+    background-color: rgb(37, 36, 36);
+    padding: 10px;
+    margin: 20px;
+}
+.third-box {
+    border-radius: 10px;
+    background-color: rgb(37, 36, 36);
+    padding: 10px;
+    margin: 20px;
+}
+section > h3 {
+    text-align: left;
+    padding: 0 26px;
+}
+section p {
+    text-align: left;
 }
