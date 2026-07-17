@@ -89,13 +89,25 @@ section {
 h3 {
     color: white;
     text-align: left;
-    padding: 0 26px;
+    padding: 0 30px;
 }
 section p {
     text-align: left;
 }
 /* Icon style for people-fill */
 i.bi-people-fill {
+    color: #9aa0ff;
+    margin-right: 6px;
+    vertical-align: middle;
+    padding: 15px 21px;
+}
+i.bi-chat-left-dots-fill {
+    color: #9aa0ff;
+    margin-right: 6px;
+    vertical-align: middle;
+    padding: 15px 21px;
+}
+i.bi-rocket-takeoff {
     color: #9aa0ff;
     margin-right: 6px;
     vertical-align: middle;
